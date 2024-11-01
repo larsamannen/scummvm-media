@@ -320,10 +320,6 @@ update: ports
 	cp scummvm_icon_32.ico               $(SCUMMVM_PATH)/backends/platform/wince/images/scumm_icon.ico
 
 # iOS 7
-	cp ports/scummvm_iphone_loading.png  $(SCUMMVM_PATH)/dists/iphone/Default.png
-	cp ports/scummvm_iphone_icon_60.png  $(SCUMMVM_PATH)/dists/iphone/icon.png
-	cp ports/scummvm_iphone_icon_72.png  $(SCUMMVM_PATH)/dists/iphone/icon-72.png
-	cp ports/scummvm_iphone_icon_114.png $(SCUMMVM_PATH)/dists/iphone/icon4.png
 	cp ports/scummvm_iphone_icon_29.png  $(SCUMMVM_PATH)/dists/ios7/Images.xcassets/AppIcon.appiconset/icon4-29.png
 	cp ports/scummvm_iphone_icon_58.png  $(SCUMMVM_PATH)/dists/ios7/Images.xcassets/AppIcon.appiconset/icon4-29@2x.png
 	cp ports/scummvm_iphone_icon_87.png  $(SCUMMVM_PATH)/dists/ios7/Images.xcassets/AppIcon.appiconset/icon4-29@3x.png
