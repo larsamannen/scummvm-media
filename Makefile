@@ -190,6 +190,9 @@ ports/scummvm_icon_symbian64m.bmp: scummvm_icon.png
 ports/scummvm_iphone_icon_%.png: derivate/scummvm_iphone_icon.svg scummvm_icon.png
 	inkscape -o $@ -w $* -h $* $<
 
+ports/scummvm_iphone_tinted_icon_%.png: derivate/scummvm_iphone_tinted_icon.svg
+	inkscape -o $@ -w $* -h $* $<
+
 ports/scummvm_iphone_loading.png: scummvm_logo.png
 	convert $< -resize 320 -gravity Center -background $(BACKGROUND) -extent 320x460 $@
 
