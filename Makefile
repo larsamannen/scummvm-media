@@ -270,8 +270,6 @@ update: ports
 	cp ports/scummvm_icon_96.png         $(SCUMMVM_PATH)/dists/android/res/mipmap-xhdpi/scummvm.png
 	cp ports/scummvm_icon_144.png        $(SCUMMVM_PATH)/dists/android/res/mipmap-xxhdpi/scummvm.png
 	cp ports/scummvm_icon_192.png        $(SCUMMVM_PATH)/dists/android/res/mipmap-xxxhdpi/scummvm.png
-	cp scummvm_icon_128.png              $(SCUMMVM_PATH)/dists/androidsdl/scummvm/icon.png
-	cp ports/scummvm_icon_android_tv.png $(SCUMMVM_PATH)/dists/androidsdl/scummvm/banner.png
 
 # BADA
 	cp ports/scummvm_bada_480x800.png    $(SCUMMVM_PATH)/dists/bada/icons/splash1.png
